@@ -14,5 +14,5 @@ int main()
     int fd;
     char buf[]="abcdefghijklmnopqrstuvwxyz0123456789";
     fd=open("input.txt",O_WRONLY);
-    write(fd,buf,sizeof(buf)-1);
+    write(fd,buf,sizeof(buf));
 }
